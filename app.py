@@ -19,5 +19,5 @@ if st.button("Generate Story"):
         with st.spinner("Crafting your story... ✨"):
             result = generator(prompt, max_length=250, num_return_sequences=1)
             story = result[0]["generated_text"]
-            st.subheader("Here's your story:")
+            st.subheader("Here's your story is Ready:")
             st.write(story)
